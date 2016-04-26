@@ -1,0 +1,29 @@
+@font-stack:    Helvetica, sans-serif;
+@primary-color: #333;
+
+body {
+  font: 100% @font-stack;
+  color: @primary-color;
+}
+
+.card {
+  margin-bottom: 1rem;
+}
+
+.card-body {
+  display: flex;
+}
+
+.card-body-input {
+  width: 20%;
+}
+
+.card-body-render {
+  padding: 1rem;
+  border: 1px black dotted;
+  clear: both;
+}
+
+@import "components/user";
+
+@import "pages/user-search";
